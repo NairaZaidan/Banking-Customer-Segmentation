@@ -31,22 +31,22 @@ This project answers: **"Which customers are similar, and what should the bank d
 ### UMAP Cluster Projection
 *Each dot is a customer. Color = cluster. Well-separated blobs confirm the clusters are real.*
 
-![UMAP Projection](images/07_umap.png)
+![UMAP Projection](plots/07_umap.png)
 
 ### Cluster Profile Heatmap
 *Red = above average · Blue = below average. Read each row to understand a segment's personality.*
 
-![Cluster Heatmap](images/06_cluster_heatmap.png)
+![Cluster Heatmap](plots/06_cluster_heatmap.png)
 
 ### Radar Charts — Segment Personalities
 *Normalized feature means per cluster — shows the "shape" of each segment at a glance.*
 
-![Radar Charts](images/08_radar_chart.png)
+![Radar Charts](plots/08_radar_chart.png)
 
 ### Elbow + Silhouette — Choosing k=4
 *Two metrics agree: k=4 is the optimal number of clusters for this dataset.*
 
-![Elbow & Silhouette](images/05_elbow_silhouette.png)
+![Elbow & Silhouette](plots/05_elbow_silhouette.png)
 
 ---
 
@@ -68,7 +68,7 @@ banking-customer-segmentation/
 │   ├── cluster_profile_means.csv    # Mean features per cluster
 │   └── cluster_profile_deviation.csv# % deviation from global average (key table)
 │
-└── images/
+└── plots/
     ├── 01_distributions.png         # Feature distribution histograms
     ├── 02_correlation.png           # Correlation heatmap
     ├── 03_churn_vs_features.png     # Existing vs Attrited boxplots
