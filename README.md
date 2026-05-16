@@ -1,7 +1,7 @@
 # 🏦 Banking Customer Segmentation
 ### Unsupervised Machine Learning · K-Means · DBSCAN · PCA · UMAP
 
-> **Internship project** — Grouping 10,127 credit card customers into behaviorally distinct segments using unsupervised learning, and translating each segment into a concrete business strategy.
+> — Grouping 10,127 credit card customers into behaviorally distinct segments using unsupervised learning, and translating each segment into a concrete business strategy.
 
 ---
 
